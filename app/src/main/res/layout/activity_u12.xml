@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".u12"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-63dp">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".u12"
+        tools:layout_editor_absoluteX="-146dp"
+        tools:layout_editor_absoluteY="300dp">
+
+     <TextView
+         android:id="@+id/textView94"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Leave Type"
+         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName45"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.12"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0" />
+
+     <EditText
+         android:id="@+id/editTextTextPersonName17"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text="For Some Reason"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.203"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/u12_title"
+         app:layout_constraintVertical_bias="0.54" />
+
+     <EditText
+         android:id="@+id/editTextTextPersonName45"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text="Annual Leave"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.203"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/u12_title"
+         app:layout_constraintVertical_bias="0.693" />
+
+     <TextView
+            android:id="@+id/u12_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple Leave"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.241" />
+
+     <EditText
+         android:id="@+id/editTextTextPersonName7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text="DD-MM-YYYY"
+         app:layout_constraintBottom_toTopOf="@+id/button_u12_submit"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.203"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/u12_title"
+         app:layout_constraintVertical_bias="0.542" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Leave Balance : 30 days"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.367" />
+
+     <TextView
+         android:id="@+id/textView90"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Start Date"
+         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.117"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0" />
+
+     <TextView
+         android:id="@+id/textView91"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="End Date"
+         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.117"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0" />
+
+     <TextView
+         android:id="@+id/textView92"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Reason of Leave"
+         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName17"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.136"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0" />
+
+     <TextView
+         android:id="@+id/textView93"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Leave Type"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.12"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <Button
+            android:id="@+id/button_u12_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/u12_title"
+            app:layout_constraintVertical_bias="0.827" />
+
+     <EditText
+         android:id="@+id/editTextTextPersonName6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text="DD-MM-YYYY"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.203"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.447" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

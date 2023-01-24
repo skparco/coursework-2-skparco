@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ActivitySwitch"
+        tools:targetApi="31">
+        <activity
+            android:name=".unotify"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".a1412"
+            android:parentActivityName=".a141" />
+        <activity
+            android:name=".a1411"
+            android:parentActivityName=".a141" />
+        <activity
+            android:name=".a141"
+            android:parentActivityName=".a14" />
+        <activity
+            android:name=".a14"
+            android:parentActivityName=".a1" />
+        <activity
+            android:name=".a1311"
+            android:parentActivityName=".a131" />
+        <activity
+            android:name=".a131"
+            android:parentActivityName=".a13" />
+        <activity
+            android:name=".a13"
+            android:parentActivityName=".a1" />
+        <activity
+            android:name=".a12"
+            android:parentActivityName=".a1" />
+        <activity
+            android:name=".a1111"
+            android:parentActivityName=".a111" />
+        <activity
+            android:name=".a111"
+            android:parentActivityName=".a11" />
+        <activity
+            android:name=".a11"
+            android:parentActivityName=".a1" />
+        <activity
+            android:name=".a1"
+            android:parentActivityName=".aLogin" />
+        <activity
+            android:name=".u132"
+            android:parentActivityName=".u13" />
+        <activity
+            android:name=".u131"
+            android:parentActivityName=".u13" />
+        <activity
+            android:name=".u13"
+            android:parentActivityName=".u1" />
+        <activity
+            android:name=".u12"
+            android:parentActivityName=".u1" />
+        <activity
+            android:name=".u11"
+            android:parentActivityName=".u1" />
+        <activity
+            android:name=".u1"
+            android:parentActivityName=".uLogin" />
+        <activity
+            android:name=".uLogin"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aLogin"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

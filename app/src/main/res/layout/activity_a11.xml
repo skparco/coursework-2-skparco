@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a11">
+
+  <Button
+      android:id="@+id/button_a11_Done"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Done"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/a11_title"
+      app:layout_constraintVertical_bias="0.878" />
+
+  <TextView
+      android:id="@+id/a11_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Employee list"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.241" />
+
+  <EditText
+      android:id="@+id/editTextDate5"
+      android:layout_width="272dp"
+      android:layout_height="48dp"
+      android:text="ivy.cheung@abc.ltd.com"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.23"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.669" />
+
+  <Button
+      android:id="@+id/button_a114"
+      android:layout_width="36dp"
+      android:layout_height="33dp"
+      android:layout_marginEnd="28dp"
+      android:text="i"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/editTextDate6"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.757" />
+
+  <Button
+      android:id="@+id/button_a111"
+      android:layout_width="36dp"
+      android:layout_height="33dp"
+      android:layout_marginEnd="28dp"
+      android:text="i"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/editTextDate7"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.471" />
+
+  <Button
+      android:id="@+id/button_a113"
+      android:layout_width="36dp"
+      android:layout_height="33dp"
+      android:layout_marginEnd="28dp"
+      android:text="i"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/editTextDate5"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.676" />
+
+  <Button
+      android:id="@+id/button_a112"
+      android:layout_width="36dp"
+      android:layout_height="33dp"
+      android:layout_marginStart="45dp"
+      android:layout_marginEnd="28dp"
+      android:text="i"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/editTextDate8"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.563" />
+
+  <EditText
+      android:id="@+id/editTextDate6"
+      android:layout_width="271dp"
+      android:layout_height="43dp"
+      android:text="marry.wong@abc.ltd.com"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.233"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.768" />
+
+  <EditText
+      android:id="@+id/editTextDate7"
+      android:layout_width="268dp"
+      android:layout_height="41dp"
+      android:text="parco.cheung@abc.ltd.com"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.233"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.465" />
+
+  <EditText
+      android:id="@+id/editTextDate8"
+      android:layout_width="269dp"
+      android:layout_height="49dp"
+      android:text="john.chan@abc.ltd.com"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.233"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.564" />
+
+  <TextView
+      android:id="@+id/textView31"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Employee Email"
+      app:layout_constraintBottom_toTopOf="@+id/editTextDate7"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.109"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <TextView
+      android:id="@+id/textView32"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Employee Email"
+      app:layout_constraintBottom_toTopOf="@+id/editTextDate8"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.106"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <TextView
+      android:id="@+id/textView33"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Employee Email"
+      app:layout_constraintBottom_toTopOf="@+id/editTextDate5"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.102"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+  <TextView
+      android:id="@+id/textView34"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Employee Email"
+      app:layout_constraintBottom_toTopOf="@+id/editTextDate6"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.102"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
